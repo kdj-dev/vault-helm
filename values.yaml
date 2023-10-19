@@ -22,7 +22,7 @@ global:
 
   # External vault server address for the injector and CSI provider to use.
   # Setting this will disable deployment of a vault server.
-  externalVaultAddr: "172.25.16.5"
+  externalVaultAddr: "https://vault-private-vault-756494e9.3912e096.z1.hashicorp.cloud:8200"
 
   # If deploying to OpenShift
   openshift: false
